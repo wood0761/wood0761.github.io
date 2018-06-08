@@ -1,0 +1,49 @@
+body, html{
+    background-color: #222;
+    height: 100%;
+}
+.jumbotron{
+    background-color: #222;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+h1.display-1{
+    line-height: .7;
+}
+h1.display-3{
+    padding-left: 10px;
+}
+h1.display-6{
+    line-height: .6;
+    padding-left: 35px;
+}
+#title{
+    padding-top: 20px;
+    color: white;
+}
+.flex-column{
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}
+.nav-link{
+    color: white;
+    text-align: right;
+    font-size: 18px;
+}
+@media screen and (max-width: 640px){
+    h1.display-1{
+        font-size: 60px;
+    }
+    h1.display-3{
+        font-size: 50px;
+    }
+    h1.display-6{
+        font-size: 35px;
+    }
+    .flex-column{
+        top: 80px;
+        right: 0px;
+    }
+}
+
