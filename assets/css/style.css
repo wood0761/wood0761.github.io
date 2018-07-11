@@ -2,12 +2,19 @@ body, html,{
     height: 100%;
     margin: 0;
 }
+#navbar{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
 .wrapper{
     padding-right: 15px;
     padding-left: 15px;
     background-color: #f5f3f3;
 }
 .jumbotron{
+    padding-top: 100px;
     margin-bottom: 0;
     text-align: center;
     background-color: #56E39F;
@@ -18,6 +25,7 @@ h1.display-4{
 }
 .lead{
     padding-bottom: 0;
+    font-size: 22px;
 }
 .image-container{
     background-color: pink;
@@ -29,6 +37,9 @@ img {
     width: 50%;
     padding: 15px;
 }
+.box-images{
+    width: 100%;
+}
 img:hover{
     opacity: 0.75;
 }
@@ -37,5 +48,10 @@ img:hover{
     color: rgba(135, 132, 132, 0.872);
     background-color: #eee8e8;
 }
-
-
+#info{
+    background-color: #56E39F;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.872);
+    padding-bottom: 50px;
+    font-size: 17px;
+}
