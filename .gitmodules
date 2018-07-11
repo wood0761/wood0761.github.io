@@ -1,0 +1,3 @@
+[submodule "wordGuessGame"]
+	path = wordGuessGame
+	url = https://github.com/wood0761/wordGuessGame.git
