@@ -1,3 +1,9 @@
 [submodule "wordGuessGame"]
 	path = wordGuessGame
 	url = https://github.com/wood0761/wordGuessGame.git
+[submodule "gifTastic"]
+	path = gifTastic
+	url = https://github.com/wood0761/gifTastic.git
+[submodule "Neighborly"]
+	path = Neighborly
+	url = https://github.com/bitze003/Neighborly.git
