@@ -17,7 +17,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
     <!-- link to css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- jQuery -->
@@ -26,30 +27,30 @@
 
 <body>
     <div class="wrapper">
-    <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light" style="background-color: #f5f3f3;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Stephen W. Wood</a>
-        <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#info">Info</a>
-                </li>
-                 
-            </ul>
-        </div>
-    </nav>
-  
+        <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light" style="background-color: #f5f3f3;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Stephen W. Wood</a>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info">Info</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
         <div data-spy="scroll" data-target="#navbar" data-offset="0">
             <div id="home" class="jumbotron jumbotron-fluid">
                 <div class="container">
@@ -61,12 +62,12 @@
                 </div>
             </div>
             <div class="image-container">
-            <div class="row">
-                <div class="col-12">
-                    <img src="assets/images/image1.jpg" alt="Steve Wood">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/images/image1.jpg" alt="Steve Wood">
+                    </div>
                 </div>
             </div>
-        </div>
 
             <div id="projects">
                 <br>
@@ -75,30 +76,73 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
-                            <div id="wordGuess">
-                                <h4>Hangman</h4>
-                                <a href="wordGuessGame/index.html"><img src="assets/images/hangman.png"  alt="hangman"></a>
-                                <p>Click the picture to play!</p>
-                                <p>This simple hangman game utilizes HTML, CSS, Bootstrap, Javascript, and JQuery. I'm proud of this game for its simple yet elegant design (sure, the font is laughable, but it's fun), and for the fact that it goes well beyond most of the hangman examples found online. It is also completely responsive. There is plenty of room to refactor some of the JS, which I'll get around to eventually. No really, I will!</p>
-                                <p>Check out the <a href="https://github.com/wood0761/wordGuessGame">code</a></p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div id="gifButtonGenerator">
-                                <h4>Gif Button Generator</h4> 
-                                <a href="./gifTastic/index.html"><img class="box-images" src="assets/images/gif.png" alt="gifTastic"></a>
-                                <p>In addition to HTML, CSS, and Bootstrap, this app uses JS and JQuery to dynamically create buttons that, once clicked, perform an AJAX get request to dynamically append ten gifs from the "GIPHY" API to the page! Gifs play and pause upon being clicked. Went with a super minimalist "American Apparel" type design on this one. </p>           
-                                <p>Check out the <a href="https://github.com/wood0761/gifTastic">code</a></p>
+                            <div id="friendFinder">
+                                <h4>Friend Finder</h4>
+                                <a href="https://evening-falls-88346.herokuapp.com/">
+                                    <img class="box-images" src="assets/images/friendfinder.png" alt="Friend Finder">
+                                </a>
+                                <p>Friend Finder is a compatibility-based app to match users based on how similarly they answer
+                                    a set of questions. This assignment brings us a step toward closer to building applications
+                                    using MVC architecture. The app uses
+                                    <strong>Nodejs</strong> and
+                                    <strong>Express</strong> to implement the back end. Views are housed in the public directory.
+                                    Routes to the api and html are handled in the routing directory. and "Data" is stored
+                                    in app/data/friends.js.</p>
+                                <p>Check out the
+                                    <a href="https://github.com/wood0761/FriendFinder">code</a>
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div id="neighbourly">
                                 <h4>Neighbourly</h4>
-                                <a href="Neighborly/index.html"><img class="box-images" src="assets/images/neighbourly.png" alt="neighborly"></a>
-                                <p>This simple "neighbourly" app is a group project designed to help people connect with others in their community. It essentially acts as a "posting board" for members to alert and invite the public to their events. We utilize the google maps API, location geocoding, and Javascript to help users see the events happening at their current location. Firebase Database houses all of the information about the events. Some simple code using the moment.JS library keeps the posting board and map up to date.</p> 
-                                <p>Check out the <a href="https://github.com/bitze003/Neighborly">code</a></p>
+                                <a href="Neighborly/index.html">
+                                    <img class="box-images" src="assets/images/neighbourly.png" alt="neighborly">
+                                </a>
+                                <p>This simple "neighbourly" app is a group project designed to help people connect with others
+                                    in their community. It essentially acts as a "posting board" for members to alert and
+                                    invite the public to their events. We utilize the google maps API, location geocoding,
+                                    and Javascript to help users see the events happening at their current location. Firebase
+                                    Database houses all of the information about the events. Some simple code using the moment.JS
+                                    library keeps the posting board and map up to date.</p>
+                                <p>Check out the
+                                    <a href="https://github.com/bitze003/Neighborly">code</a>
+                                </p>
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <div id="wordGuess">
+                                <h4>Hangman</h4>
+                                <a href="wordGuessGame/index.html">
+                                    <img src="assets/images/hangman.png" alt="hangman">
+                                </a>
+                                <p>Click the picture to play!</p>
+                                <p>This simple hangman game utilizes HTML, CSS, Bootstrap, Javascript, and JQuery. I like this
+                                    app for its simple yet elegant design, and for the fact that it goes beyond most of the
+                                    hangman examples found online. It is also completely responsive.</p>
+                                <p>Check out the
+                                    <a href="https://github.com/wood0761/wordGuessGame">code</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <div id="gifButtonGenerator">
+                                <h4>Gif Button Generator</h4>
+                                <a href="http://wood0761.github.io/gifTastic">
+                                    <img class="box-images" src="assets/images/gif.png" alt="gifTastic">
+                                </a>
+                                <p>In addition to HTML, CSS, and Bootstrap, this app uses JS and JQuery to dynamically create
+                                    buttons that, once clicked, perform an AJAX get request to dynamically append ten gifs
+                                    from the "GIPHY" API to the page! Gifs play and pause upon being clicked.</p>
+                                <p>Check out the
+                                    <a href="https://github.com/wood0761/gifTastic">code</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4"></div>
                     </div>
                 </div>
             </div>
@@ -107,21 +151,29 @@
                 <h2 class="display-5">Info</h2>
                 <hr>
                 <div class="container">
-                        
+
                     <div class="row">
                         <div class="col-12">
-                            <p>When I'm not learning something new related to web development, I'm probably with my dog or rock climbing.</p>
+                            <p>When I'm not learning something new related to web development, I'm probably with my dog or rock
+                                climbing.
+                            </p>
                             <p>Check out the github and linkedin links below, or email me at: wood0761@gmail.com</p>
                             <p>Thanks for stopping by!</p>
-                            <a href="https://www.linkedin.com/in/stephenwood1234/"><i class="fab fa-linkedin" style="font-size: 3em;"></i></a>
-                            <a href="https://github.com/wood0761"><i class="fab fa-github" style="font-size: 3em;"></i></a>
+                            <a href="https://www.linkedin.com/in/stephenwood1234/">
+                                <i class="fab fa-linkedin" style="font-size: 3em;"></i>
+                            </a>
+                            <a href="https://github.com/wood0761">
+                                <i class="fab fa-github" style="font-size: 3em;"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
 
-        </div> <!-- scrollspy -->
-    </div> <!-- wrapper -->
+        </div>
+        <!-- scrollspy -->
+    </div>
+    <!-- wrapper -->
     <script src="assets/javascript/app.js" type="text/javascript"></script>
 </body>
 
