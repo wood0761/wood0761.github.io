@@ -55,3 +55,9 @@ img:hover{
     padding-bottom: 50px;
     font-size: 17px;
 }
+/*most smart phones*/
+@media screen and (max-width: 640px) {
+    img{
+        width: 50%;
+    }
+}
