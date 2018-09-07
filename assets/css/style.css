@@ -28,13 +28,13 @@ h1.display-4{
     font-size: 22px;
 }
 .image-container{
-    background-color: pink;
+    background-color: rgb(249, 216, 221);
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
     padding: 15px;
 }
 .box-images{
