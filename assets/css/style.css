@@ -36,10 +36,9 @@ img {
     margin-right: auto;
     width: 30%;
     padding: 15px;
+    border-radius: 5%;
 }
-/* #wordGuessImg{
-    width: 50%;
-} */
+
 .box-images{
     width: 100%;
 }
