@@ -2,6 +2,7 @@ body, html,{
     height: 100%;
     margin: 0;
 }
+
 #navbar{
     position: fixed;
     z-index: 1;
@@ -21,7 +22,7 @@ body, html,{
     color: rgba(255, 255, 255, 0.872);
 }
 h1.display-4{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .lead{
     padding-bottom: 0;
@@ -38,7 +39,10 @@ img {
     padding: 15px;
     border-radius: 5%;
 }
-
+.me{
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
 .box-images{
     width: 100%;
 }
