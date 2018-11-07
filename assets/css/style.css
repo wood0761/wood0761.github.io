@@ -2,12 +2,12 @@ body, html,{
     height: 100%;
     margin: 0;
 }
-
 #navbar{
     position: fixed;
     z-index: 1;
     top: 0;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 .wrapper{
     padding-right: 15px;
@@ -35,7 +35,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 25%;
     padding: 15px;
     border-radius: 5%;
 }
@@ -53,6 +53,7 @@ img:hover{
     text-align: center;
     color: rgba(135, 132, 132, 0.872);
     background-color: #eee8e8;
+    font-family: 'Poppins', sans-serif;
 }
 #info{
     background-color: #56E39F;
